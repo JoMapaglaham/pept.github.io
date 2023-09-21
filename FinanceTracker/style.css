@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root {
+  --title-tables-font-family: "Mulish-Black", Helvetica;
+  --title-tables-font-weight: 900;
+  --title-tables-font-size: 20px;
+  --title-tables-letter-spacing: -0.4px;
+  --title-tables-line-height: normal;
+  --title-tables-font-style: normal;
+  --balance-big-font-family: "Inter-ExtraBold", Helvetica;
+  --balance-big-font-weight: 800;
+  --balance-big-font-size: 45px;
+  --balance-big-letter-spacing: 0px;
+  --balance-big-line-height: normal;
+  --balance-big-font-style: normal;
+  --balance-tenth-font-family: "Inter-ExtraBold", Helvetica;
+  --balance-tenth-font-weight: 800;
+  --balance-tenth-font-size: 19px;
+  --balance-tenth-letter-spacing: 0px;
+  --balance-tenth-line-height: normal;
+  --balance-tenth-font-style: normal;
+  --balance-description-font-family: "Mulish-Black", Helvetica;
+  --balance-description-font-weight: 900;
+  --balance-description-font-size: 12px;
+  --balance-description-letter-spacing: 2.04px;
+  --balance-description-line-height: normal;
+  --balance-description-font-style: normal;
+  --mainwhite: rgba(255, 255, 255, 1);
+  --mainblack: rgba(0, 0, 0, 1);
+  --maingreen: rgba(79, 209, 139, 1);
+  --maingrey: rgba(161, 160, 189, 1);
+  --mainprimary: rgba(76, 73, 237, 1);
+  --balance-big-font-family: "Inter-ExtraBold", Helvetica;
+  --balance-big-font-weight: 800;
+  --balance-big-font-size: 45px;
+  --balance-big-letter-spacing: 0px;
+  --balance-big-line-height: normal;
+  --balance-big-font-style: normal;
+  --balance-tenth-font-family: "Inter-ExtraBold", Helvetica;
+  --balance-tenth-font-weight: 800;
+  --balance-tenth-font-size: 19px;
+  --balance-tenth-letter-spacing: 0px;
+  --balance-tenth-line-height: normal;
+  --balance-tenth-font-style: normal;
+  --balance-description-font-family: "Mulish-Bold", Helvetica;
+  --balance-description-font-weight: 700;
+  --balance-description-font-size: 16px;
+  --balance-description-letter-spacing: 0px;
+  --balance-description-line-height: normal;
+  --balance-description-font-style: normal;
+  --title-h3-font-family: "Mulish-Black", Helvetica;
+  --title-h3-font-weight: 900;
+  --title-h3-font-size: 25px;
+  --title-h3-letter-spacing: 0px;
+  --title-h3-line-height: normal;
+  --title-h3-font-style: normal;
+  --balance-small-font-family: "Inter-ExtraBold", Helvetica;
+  --balance-small-font-weight: 800;
+  --balance-small-font-size: 23px;
+  --balance-small-letter-spacing: 0px;
+  --balance-small-line-height: normal;
+  --balance-small-font-style: normal;
+  --button-text-font-family: "Mulish-Black", Helvetica;
+  --button-text-font-weight: 900;
+  --button-text-font-size: 13px;
+  --button-text-letter-spacing: 0.52px;
+  --button-text-line-height: normal;
+  --button-text-font-style: normal;
+}
+.hex{
+  background-color: var(--mainwhite);
+  border: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  overflow-x: hidden;
+}
+.bx{
+  font-size: 1.7rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+.box {
+    max-width: 1400px;
+    max-height: auto;
+  }
+  
+  .box .rectangle {
+    position: fixed;
+    width: 1370px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+  }
+  
+  .box .vector {
+    width: 399px;
+    height: 386px;
+    position: fixed;
+    top: 0;
+    left: 975px;
+    opacity: 20%;
+  }
+
+  .box .vector1 {
+    position: fixed;
+    width: 311px;
+    height: 291px;
+    top: 0;
+    left: 1062px;
+    opacity: 50%;
+  }
+
+  .box .vector2 {
+    position: fixed;
+    width: 209px;
+    height: 202px;
+    top: 0;
+    left: 1164px;
+  }
+
+.box .rectangle .logo .logoname span{
+    color: blue;
+  }
+
+.box .rectangle .logo .logoname{
+  color: white;
+}
+
+.box .rectangle .logo{
+    font-size: 24px;
+    font-weight: 700;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 500;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.box .rectangle .logo .ecommerce-so-wallet{
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+
+.box .rectangle .side-menu{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.box .rectangle .side-menu li{
+  height: 48px;
+  background: transparent;
+  margin-left: 6px;
+  border-radius: 48px 0 0 48px;
+  padding: 4px;
+}
+
+.box .rectangle .side-menu li a{
+  width: 15%;
+  height: 100%;
+  background: var(--light);
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+  font-size: 16px;
+  color: var(--main-grey, #A1A0BD);
+  white-space: nowrap;
+  overflow-x: hidden;
+  transform: all 0.3 ease;
+}
+.box .rectangle .side-menu li a{
+  width: 15%;
+  height: 100%;
+  background: var(--light);
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+  font-size: 16px;
+  color: var(--main-grey, #A1A0BD);
+  white-space: nowrap;
+  overflow-x: hidden;
+  transform: all 0.3 ease;
+}
+.box .rectangle .side-menu li a .bx{
+  min-width: calc(60px - ((4px + 6px) * 2));
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+.box .rectangle .side-menu li:active{
+  background: #E4E3FF;
+  position: relative;
+  width: 15%;
+  border-radius: 30px;
+}
+
+.box .rectangle .side-menu li:active::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: -40px;
+  right: 0;
+  z-index: -1;
+}
+
+.box .rectangle .side-menu li:active a{
+  background: #E4E3FF;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  gap: 22px;
+  position: relative;
+}
+
+.main1{
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  gap: 22px;
+  position: relative;
+}
+
+.total-balance {
+  position: relative;
+  width: 953px;
+  height: 230px;
+  background-color: var(--mainwhite);
+  border-radius: 20px;
+  overflow: hidden;
+  left: 230px;
+  top: -540px;
+}
+
+.total-balance .wallet-amount {
+  position: absolute;
+  width: 300px;
+  height: 304px;
+  top: -46px;
+  left: 730px;
+  background-color: #0000ff;
+  border-radius: 155px;
+  overflow: hidden;
+}
+
+.total-balance .element {
+  top: 117px;
+  left: 35px;
+  color: transparent;
+  font-size: 45px;
+  position: absolute;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.total-balance .text-wrapper {
+  color: #4fd18b;
+  font-family: var(--balance-big-font-family);
+  font-style: var(--balance-big-font-style);
+  font-weight: var(--balance-big-font-weight);
+  letter-spacing: var(--balance-big-letter-spacing);
+  line-height: var(--balance-big-line-height);
+  font-size: var(--balance-big-font-size);
+}
+
+.total-balance .span {
+  color: #ffffff;
+  font-family: var(--balance-big-font-family);
+  font-style: var(--balance-big-font-style);
+  font-weight: var(--balance-big-font-weight);
+  letter-spacing: var(--balance-big-letter-spacing);
+  line-height: var(--balance-big-line-height);
+  font-size: var(--balance-big-font-size);
+}
+
+.total-balance .text-wrapper-2 {
+  color: #0000004f;
+  font-size: var(--balance-tenth-font-size);
+  font-family: var(--balance-tenth-font-family);
+  font-style: var(--balance-tenth-font-style);
+  font-weight: var(--balance-tenth-font-weight);
+  letter-spacing: var(--balance-tenth-letter-spacing);
+  line-height: var(--balance-tenth-line-height);
+}
+
+.total-balance .div {
+  position: absolute;
+  top: 171px;
+  left: 49px;
+  opacity: 0.5;
+  font-family: "Mulish-Black", Helvetica;
+  font-weight: 900;
+  color: var(--mainwhite);
+  font-size: 12px;
+  letter-spacing: 2.04px;
+  line-height: normal;
+}
+
+.total-balance .left-side {
+  display: flex;
+  flex-direction: column;
+  width: 247px;
+  height: 157px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  top: 45px;
+  left: 36px;
+}
+
+.total-balance .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-h3-font-family);
+  font-weight: var(--title-h3-font-weight);
+  color: var(--mainblack);
+  font-size: var(--title-h3-font-size);
+  letter-spacing: var(--title-h3-letter-spacing);
+  line-height: var(--title-h3-line-height);
+  font-style: var(--title-h3-font-style);
+}
+
+.total-balance .latest-transaction {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 48.17px;
+  margin-right: -4px;
+}
+
+.total-balance .text-wrapper-4 {
+  width: 200px;
+  top: 0;
+  left: 0;
+  color: var(--maingreen);
+  font-size: var(--balance-small-font-size);
+  position: absolute;
+  font-family: var(--balance-small-font-family);
+  font-weight: var(--balance-small-font-weight);
+  letter-spacing: var(--balance-small-letter-spacing);
+  line-height: var(--balance-small-line-height);
+  white-space: nowrap;
+  font-style: var(--balance-small-font-style);
+}
+
+.total-balance .text-wrapper-5 {
+  position: absolute;
+  width: 247px;
+  top: 30px;
+  left: 0;
+  font-family: var(--balance-description-font-family);
+  font-weight: var(--balance-description-font-weight);
+  color: var(--maingrey);
+  font-size: var(--balance-description-font-size);
+  letter-spacing: var(--balance-description-letter-spacing);
+  line-height: var(--balance-description-line-height);
+  white-space: nowrap;
+  font-style: var(--balance-description-font-style);
+}
+
+.total-balance .actions {
+  display: flex;
+  height: 48.17px;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.total-balance .button-primary {
+  gap: 8.86px;
+  padding: 14.17px 24.8px;
+  background-color: #ffffff75;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 46.06px;
+  border-color: #4c49ec;
+}
+
+.total-balance .top-up {
+  position: relative;
+  top: -0px;
+  flex: 1;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--button-text-font-family);
+  font-weight: var(--button-text-font-weight);
+  color: #4c49ec;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+  font-style: var(--button-text-font-style);
+}
+
+.total-balance .button-stroke {
+  gap: 7.86px;
+  padding: 14px 20px;
+  border: 0.89px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 46.06px;
+  border-color: var(--mainprimary);
+}
+
+.total-balance .WITHDRAW {
+  position: relative;
+  width: fit-content;
+  font-family: var(--button-text-font-family);
+  font-weight: var(--button-text-font-weight);
+  color: var(--mainprimary);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+  font-style: var(--button-text-font-style);
+}
+
+.pie-box{
+  position: relative;
+  width: 953px;
+  height: 290px;
+  background-color: var(--mainwhite);
+  border-radius: 20px;
+  overflow: hidden;
+  left: 230px;
+  top: -520px;
+}
+
+.pie-box .spend{
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-h3-font-family);
+  font-weight: var(--title-h3-font-weight);
+  color: var(--mainblack);
+  font-size: var(--title-h3-font-size);
+  letter-spacing: var(--title-h3-letter-spacing);
+  line-height: var(--title-h3-line-height);
+  font-style: var(--title-h3-font-style);
+  top: 10px;
+  left: 20px;
+}
+
+.pie-box .pie{
+  position: relative;
+  top: 40px;
+  left: 285px;
+  width: fit-content;
+}
+
+
+
